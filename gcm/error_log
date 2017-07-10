@@ -1,0 +1,20 @@
+[04-May-2016 10:01:02 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/surajbhandaricom/public_html/gcm/index.php on line 11
+[04-May-2016 10:04:50 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/surajbhandaricom/public_html/gcm/index.php on line 11
+[04-May-2016 10:08:22 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'h154.cpanellogin.net' (using password: NO)' in /home/surajbhandaricom/public_html/gcm/PDOConnection.php:6
+Stack trace:
+#0 /home/surajbhandaricom/public_html/gcm/PDOConnection.php(6): PDO->__construct('mysql:dbname=su...', 'root', '')
+#1 /home/surajbhandaricom/public_html/gcm/gcm.php(2): include('/home/surajbhan...')
+#2 {main}
+  thrown in /home/surajbhandaricom/public_html/gcm/PDOConnection.php on line 6
+[04-May-2016 10:08:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'h154.cpanellogin.net' (using password: NO)' in /home/surajbhandaricom/public_html/gcm/PDOConnection.php:6
+Stack trace:
+#0 /home/surajbhandaricom/public_html/gcm/PDOConnection.php(6): PDO->__construct('mysql:dbname=su...', 'root', '')
+#1 /home/surajbhandaricom/public_html/gcm/index.php(2): include('/home/surajbhan...')
+#2 {main}
+  thrown in /home/surajbhandaricom/public_html/gcm/PDOConnection.php on line 6
+[04-May-2016 10:08:43 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'h154.cpanellogin.net' (using password: NO)' in /home/surajbhandaricom/public_html/gcm/PDOConnection.php:6
+Stack trace:
+#0 /home/surajbhandaricom/public_html/gcm/PDOConnection.php(6): PDO->__construct('mysql:dbname=su...', 'root', '')
+#1 /home/surajbhandaricom/public_html/gcm/index.php(2): include('/home/surajbhan...')
+#2 {main}
+  thrown in /home/surajbhandaricom/public_html/gcm/PDOConnection.php on line 6
